@@ -9,7 +9,7 @@ public class Main {
 
         List<String> list = List.of("Nikita", "Oleg");
 
-        toUpper(list, x -> x.toUpperCase(), t -> System.out.println(t));
+        toUpper(list, String::toUpperCase, System.out::println);
 
     }
 
